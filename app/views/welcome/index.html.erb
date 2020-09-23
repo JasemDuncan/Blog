@@ -1,8 +1,11 @@
 <h1>Bienvenidos a nuestro Blog!</h1>
 <%# Ejempos %>
 <%'Solo evalua el codigo pero no lo imprime dentro de la pagina web'%> 
-<%='Sirve para imprimir cosas '%> 
+<%'1 rails generate model Article title:string body:text visits_count:integer'%> 
 
+
+
+<%='Sirve para imprimir cosas '%> 
 <% @plural=[1,2,3,4] %>
 <% @plural.each do |number| %>
     <p>Numero:<%=number%></p>

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "/bienvenida", to: "home#index"
   get 'welcome/index'
   #To make a root
   root 'welcome#index'
